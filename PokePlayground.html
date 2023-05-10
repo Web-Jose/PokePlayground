@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PokePlay</title>
+    <link rel="stylesheet" href="PokePlayground.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="FW_Sprite.js" defer></script>
+    <script src="SpriteWalk.js" defer></script>
+  </head>
+  <header>
+    <span class="material-symbols-outlined"> menu </span>
+  </header>
+  <section class="Hamburger">
+    <div class="MenuTitle">Poke-Playground</div>
+    <div class="PokeFinder">
+      <div class="SectionTitle">Select Pokemon</div>
+      <!--Search Bar-->
+      <div class="SearchBar">
+        <input type="text" placeholder="Search Pokemon" />
+        <span class="material-symbols-outlined"> search </span>
+      </div>
+      <!--Pokemon List using json and javascript-->
+      <div class="Poke-Selector"></div>
+    </div>
+    <div class="BGSelctor">
+      <div class="SectionTitle">Select Background</div>
+      <!--Background List using json and javascript-->
+      <div class="BG-Options">
+        <div class="OptBG" id="BG1"></div>
+        <div class="OptBG" id="BG2"></div>
+        <div class="OptBG" id="BG3"></div>
+        <div class="OptBG" id="BG4"></div>
+      </div>
+    </div>
+    <div class="CurrPkmn">
+      <div class="SectionTitle">Current Pokemon</div>
+      <!--Current Pokemon using json and javascript-->
+    </div>
+  </section>
+  <body>
+    <h1>Playground</h1>
+    <p>Let's play!</p>
+  </body>
+</html>
